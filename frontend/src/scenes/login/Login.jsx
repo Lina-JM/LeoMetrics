@@ -73,7 +73,7 @@ export default function Login() {
       JSON.stringify({
         full_name: "Demo User",
         email: "demo@leometrics.com",
-        role: "Administrator",
+        role: "administrator",
         profile_photo: "",
         app_permissions: [],
       })
@@ -237,7 +237,7 @@ export default function Login() {
               Access your ITSM analytics workspace.
             </Typography>
           </Box>
-          
+
           {isDemo && (
             <Alert severity="info" sx={{ mb: 2 }}>
               Demo Version - Authentication is disabled.
