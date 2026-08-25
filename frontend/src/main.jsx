@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import { BrowserRouter } from "react-router-dom";
+import { HashRouter } from "react-router-dom";
 import { CssBaseline, ThemeProvider } from "@mui/material";
 import "./index.css";
 import App from "./App";
@@ -14,9 +14,11 @@ function Root() {
       <ColorModeContext.Provider value={colorMode}>
         <ThemeProvider theme={theme}>
           <CssBaseline />
-          <BrowserRouter>
+
+          <HashRouter>
             <App />
-          </BrowserRouter>
+          </HashRouter>
+
         </ThemeProvider>
       </ColorModeContext.Provider>
     </React.StrictMode>
