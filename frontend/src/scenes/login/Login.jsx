@@ -63,7 +63,30 @@ export default function Login() {
     return () => clearTimeout(timer);
   }, [forgotMessage]);
 
+  const isDemo = window.location.hostname.includes("github.io");
+
+  const handleDemoLogin = () => {
+    localStorage.setItem("access", "demo-token");
+
+    localStorage.setItem(
+      "user",
+      JSON.stringify({
+        full_name: "Demo User",
+        email: "demo@leometrics.com",
+        role: "Administrator",
+        profile_photo: "",
+        app_permissions: [],
+      })
+    );
+
+    navigate("/dashboard", { replace: true });
+  };
+
   const handleLogin = async () => {
+    if (isDemo) {
+      handleDemoLogin();
+      return;
+    }
     setError("");
     setResendMessage("");
     setForgotMessage("");
@@ -214,6 +237,12 @@ export default function Login() {
               Access your ITSM analytics workspace.
             </Typography>
           </Box>
+          
+          {isDemo && (
+            <Alert severity="info" sx={{ mb: 2 }}>
+              Demo Version - Authentication is disabled.
+            </Alert>
+          )}
 
           {error && (
             <Alert severity="error" sx={{ mb: 2 }} onClose={() => setError("")}>
