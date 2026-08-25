@@ -1,0 +1,334 @@
+kpi_id,kpi_name,module_id,module_name,date,year,month,actual_value,target_value,result_status,calculated_at
+2,Articles created in a month,5,Knowledge,2018-03-01,2018,3,2.0,50.0,on_target,2026-05-25 09:40:32.077425+00:00
+2,Articles created in a month,5,Knowledge,2018-04-01,2018,4,3.0,50.0,on_target,2026-05-25 09:40:32.120884+00:00
+2,Articles created in a month,5,Knowledge,2018-05-01,2018,5,1.0,50.0,on_target,2026-05-25 09:40:32.163618+00:00
+2,Articles created in a month,5,Knowledge,2018-06-01,2018,6,1.0,50.0,on_target,2026-05-25 09:40:32.209956+00:00
+2,Articles created in a month,5,Knowledge,2018-07-01,2018,7,1.0,50.0,on_target,2026-05-25 09:40:32.250115+00:00
+2,Articles created in a month,5,Knowledge,2018-08-01,2018,8,1.0,50.0,on_target,2026-05-25 09:40:32.284312+00:00
+2,Articles created in a month,5,Knowledge,2018-09-01,2018,9,1.0,50.0,on_target,2026-05-25 09:40:32.317045+00:00
+2,Articles created in a month,5,Knowledge,2020-05-01,2020,5,1.0,50.0,on_target,2026-05-25 09:40:32.351397+00:00
+2,Articles created in a month,5,Knowledge,2020-06-01,2020,6,1.0,50.0,on_target,2026-05-25 09:40:32.387164+00:00
+2,Articles created in a month,5,Knowledge,2020-07-01,2020,7,1.0,50.0,on_target,2026-05-25 09:40:32.429015+00:00
+2,Articles created in a month,5,Knowledge,2020-08-01,2020,8,3.0,50.0,on_target,2026-05-25 09:40:32.468653+00:00
+2,Articles created in a month,5,Knowledge,2020-09-01,2020,9,1.0,50.0,on_target,2026-05-25 09:40:32.511075+00:00
+2,Articles created in a month,5,Knowledge,2020-10-01,2020,10,5.0,50.0,on_target,2026-05-25 09:40:32.554532+00:00
+2,Articles created in a month,5,Knowledge,2020-11-01,2020,11,5.0,50.0,on_target,2026-05-25 09:40:32.593005+00:00
+2,Articles created in a month,5,Knowledge,2020-12-01,2020,12,1.0,50.0,on_target,2026-05-25 09:40:32.649285+00:00
+2,Articles created in a month,5,Knowledge,2021-01-01,2021,1,1.0,50.0,on_target,2026-05-25 09:40:32.698142+00:00
+2,Articles created in a month,5,Knowledge,2021-02-01,2021,2,3.0,50.0,on_target,2026-05-25 09:40:32.730583+00:00
+2,Articles created in a month,5,Knowledge,2021-03-01,2021,3,4.0,50.0,on_target,2026-05-25 09:40:32.766639+00:00
+2,Articles created in a month,5,Knowledge,2021-04-01,2021,4,2.0,50.0,on_target,2026-05-25 09:40:32.795891+00:00
+2,Articles created in a month,5,Knowledge,2021-05-01,2021,5,9.0,50.0,on_target,2026-05-25 09:40:32.827760+00:00
+2,Articles created in a month,5,Knowledge,2021-06-01,2021,6,42.0,50.0,on_target,2026-05-25 09:40:32.859745+00:00
+2,Articles created in a month,5,Knowledge,2021-08-01,2021,8,19.0,50.0,on_target,2026-05-25 09:40:32.895711+00:00
+2,Articles created in a month,5,Knowledge,2021-09-01,2021,9,12.0,50.0,on_target,2026-05-25 09:40:32.928829+00:00
+2,Articles created in a month,5,Knowledge,2021-10-01,2021,10,11.0,50.0,on_target,2026-05-25 09:40:32.964246+00:00
+2,Articles created in a month,5,Knowledge,2021-11-01,2021,11,5.0,50.0,on_target,2026-05-25 09:40:33.001715+00:00
+2,Articles created in a month,5,Knowledge,2021-12-01,2021,12,27.0,50.0,on_target,2026-05-25 09:40:33.033933+00:00
+2,Articles created in a month,5,Knowledge,2022-01-01,2022,1,200.0,50.0,off_target,2026-05-25 09:40:33.067085+00:00
+2,Articles created in a month,5,Knowledge,2022-02-01,2022,2,73.0,50.0,off_target,2026-05-25 09:40:33.098201+00:00
+2,Articles created in a month,5,Knowledge,2022-03-01,2022,3,26.0,50.0,on_target,2026-05-25 09:40:33.130096+00:00
+2,Articles created in a month,5,Knowledge,2022-04-01,2022,4,8.0,50.0,on_target,2026-05-25 09:40:33.162432+00:00
+2,Articles created in a month,5,Knowledge,2022-05-01,2022,5,20.0,50.0,on_target,2026-05-25 09:40:33.191529+00:00
+2,Articles created in a month,5,Knowledge,2022-06-01,2022,6,20.0,50.0,on_target,2026-05-25 09:40:33.223425+00:00
+2,Articles created in a month,5,Knowledge,2022-07-01,2022,7,17.0,50.0,on_target,2026-05-25 09:40:33.271593+00:00
+2,Articles created in a month,5,Knowledge,2022-08-01,2022,8,57.0,50.0,off_target,2026-05-25 09:40:33.314205+00:00
+2,Articles created in a month,5,Knowledge,2022-09-01,2022,9,40.0,50.0,on_target,2026-05-25 09:40:33.347095+00:00
+2,Articles created in a month,5,Knowledge,2022-10-01,2022,10,73.0,50.0,off_target,2026-05-25 09:40:33.377982+00:00
+2,Articles created in a month,5,Knowledge,2022-11-01,2022,11,64.0,50.0,off_target,2026-05-25 09:40:33.406133+00:00
+2,Articles created in a month,5,Knowledge,2022-12-01,2022,12,80.0,50.0,off_target,2026-05-25 09:40:33.434739+00:00
+2,Articles created in a month,5,Knowledge,2023-01-01,2023,1,35.0,50.0,on_target,2026-05-25 09:40:33.461604+00:00
+2,Articles created in a month,5,Knowledge,2023-02-01,2023,2,17.0,50.0,on_target,2026-05-25 09:40:33.493745+00:00
+2,Articles created in a month,5,Knowledge,2023-03-01,2023,3,35.0,50.0,on_target,2026-05-25 09:40:33.523084+00:00
+2,Articles created in a month,5,Knowledge,2023-04-01,2023,4,15.0,50.0,on_target,2026-05-25 09:40:33.551042+00:00
+2,Articles created in a month,5,Knowledge,2023-05-01,2023,5,23.0,50.0,on_target,2026-05-25 09:40:33.577908+00:00
+2,Articles created in a month,5,Knowledge,2023-06-01,2023,6,39.0,50.0,on_target,2026-05-25 09:40:33.604449+00:00
+2,Articles created in a month,5,Knowledge,2023-07-01,2023,7,31.0,50.0,on_target,2026-05-25 09:40:33.635419+00:00
+2,Articles created in a month,5,Knowledge,2023-08-01,2023,8,40.0,50.0,on_target,2026-05-25 09:40:33.666007+00:00
+2,Articles created in a month,5,Knowledge,2023-09-01,2023,9,45.0,50.0,on_target,2026-05-25 09:40:33.697060+00:00
+2,Articles created in a month,5,Knowledge,2023-10-01,2023,10,60.0,50.0,off_target,2026-05-25 09:40:33.725461+00:00
+2,Articles created in a month,5,Knowledge,2023-11-01,2023,11,52.0,50.0,off_target,2026-05-25 09:40:33.750146+00:00
+2,Articles created in a month,5,Knowledge,2023-12-01,2023,12,18.0,50.0,on_target,2026-05-25 09:40:33.778740+00:00
+2,Articles created in a month,5,Knowledge,2024-01-01,2024,1,41.0,50.0,on_target,2026-05-25 09:40:33.804985+00:00
+2,Articles created in a month,5,Knowledge,2024-02-01,2024,2,26.0,50.0,on_target,2026-05-25 09:40:33.831764+00:00
+2,Articles created in a month,5,Knowledge,2024-03-01,2024,3,45.0,50.0,on_target,2026-05-25 09:40:33.864159+00:00
+2,Articles created in a month,5,Knowledge,2024-04-01,2024,4,25.0,50.0,on_target,2026-05-25 09:40:33.891092+00:00
+2,Articles created in a month,5,Knowledge,2024-05-01,2024,5,26.0,50.0,on_target,2026-05-25 09:40:33.915529+00:00
+2,Articles created in a month,5,Knowledge,2024-06-01,2024,6,43.0,50.0,on_target,2026-05-25 09:40:33.942150+00:00
+2,Articles created in a month,5,Knowledge,2024-07-01,2024,7,130.0,50.0,off_target,2026-05-25 09:40:33.969782+00:00
+2,Articles created in a month,5,Knowledge,2024-08-01,2024,8,92.0,50.0,off_target,2026-05-25 09:40:33.996352+00:00
+2,Articles created in a month,5,Knowledge,2024-09-01,2024,9,53.0,50.0,off_target,2026-05-25 09:40:34.023463+00:00
+2,Articles created in a month,5,Knowledge,2024-10-01,2024,10,88.0,50.0,off_target,2026-05-25 09:40:34.051529+00:00
+2,Articles created in a month,5,Knowledge,2024-11-01,2024,11,27.0,50.0,on_target,2026-05-25 09:40:34.079045+00:00
+2,Articles created in a month,5,Knowledge,2024-12-01,2024,12,77.0,50.0,off_target,2026-05-25 09:40:34.105975+00:00
+2,Articles created in a month,5,Knowledge,2025-01-01,2025,1,18.0,50.0,on_target,2026-05-25 09:40:34.133851+00:00
+2,Articles created in a month,5,Knowledge,2025-02-01,2025,2,21.0,50.0,on_target,2026-05-25 09:40:34.161658+00:00
+2,Articles created in a month,5,Knowledge,2025-03-01,2025,3,37.0,50.0,on_target,2026-05-25 09:40:34.199620+00:00
+2,Articles created in a month,5,Knowledge,2025-04-01,2025,4,21.0,50.0,on_target,2026-05-25 09:40:34.251268+00:00
+2,Articles created in a month,5,Knowledge,2025-05-01,2025,5,82.0,50.0,off_target,2026-05-25 09:40:34.293071+00:00
+2,Articles created in a month,5,Knowledge,2025-06-01,2025,6,40.0,50.0,on_target,2026-05-25 09:40:34.332173+00:00
+2,Articles created in a month,5,Knowledge,2025-07-01,2025,7,24.0,50.0,on_target,2026-05-25 09:40:34.371681+00:00
+2,Articles created in a month,5,Knowledge,2025-08-01,2025,8,43.0,50.0,on_target,2026-05-25 09:40:34.401802+00:00
+2,Articles created in a month,5,Knowledge,2025-09-01,2025,9,23.0,50.0,on_target,2026-05-25 09:40:34.439537+00:00
+2,Articles created in a month,5,Knowledge,2025-10-01,2025,10,25.0,50.0,on_target,2026-05-25 09:40:34.471989+00:00
+2,Articles created in a month,5,Knowledge,2025-11-01,2025,11,31.0,50.0,on_target,2026-05-25 09:40:34.509568+00:00
+2,Articles created in a month,5,Knowledge,2025-12-01,2025,12,30.0,50.0,on_target,2026-05-25 09:40:34.542618+00:00
+2,Articles created in a month,5,Knowledge,2026-01-01,2026,1,22.0,50.0,on_target,2026-05-25 09:40:34.580895+00:00
+2,Articles created in a month,5,Knowledge,2026-02-01,2026,2,30.0,50.0,on_target,2026-05-25 09:40:34.613055+00:00
+2,Articles created in a month,5,Knowledge,2026-03-01,2026,3,40.0,50.0,on_target,2026-05-25 09:40:34.640005+00:00
+2,Articles created in a month,5,Knowledge,2026-04-01,2026,4,5.0,50.0,on_target,2026-05-25 09:40:34.666366+00:00
+3,Changes Created in a month,3,Change,2026-03-01,2026,3,61.0,450.0,on_target,2026-05-25 09:40:18.571573+00:00
+3,Changes Created in a month,3,Change,2026-04-01,2026,4,63.0,450.0,on_target,2026-05-25 09:40:18.610947+00:00
+10,High Changes,3,Change,2026-03-01,2026,3,0.0,3.0,on_target,2026-05-25 09:40:12.142722+00:00
+10,High Changes,3,Change,2026-04-01,2026,4,1.0,3.0,on_target,2026-05-25 09:40:12.179117+00:00
+7,Incidents created in a month,1,Incident,2026-03-01,2026,3,256.0,200.0,off_target,2026-05-25 09:40:12.357710+00:00
+7,Incidents created in a month,1,Incident,2026-04-01,2026,4,437.0,200.0,off_target,2026-05-25 09:40:12.435696+00:00
+1,Number of Major Incidents,1,Incident,2026-03-01,2026,3,0.0,7.0,on_target,2026-05-25 09:40:11.782792+00:00
+1,Number of Major Incidents,1,Incident,2026-04-01,2026,4,0.0,7.0,on_target,2026-05-25 09:40:11.869652+00:00
+14,Number of Mjor Problem,4,Problem,2021-12-01,2021,12,1.0,5.0,on_target,2026-05-25 09:40:27.118584+00:00
+14,Number of Mjor Problem,4,Problem,2022-01-01,2022,1,1.0,5.0,on_target,2026-05-25 09:40:27.208148+00:00
+14,Number of Mjor Problem,4,Problem,2022-02-01,2022,2,3.0,5.0,on_target,2026-05-25 09:40:27.296209+00:00
+14,Number of Mjor Problem,4,Problem,2022-03-01,2022,3,1.0,5.0,on_target,2026-05-25 09:40:27.386640+00:00
+14,Number of Mjor Problem,4,Problem,2022-04-01,2022,4,1.0,5.0,on_target,2026-05-25 09:40:27.473856+00:00
+14,Number of Mjor Problem,4,Problem,2022-05-01,2022,5,4.0,5.0,on_target,2026-05-25 09:40:27.553688+00:00
+14,Number of Mjor Problem,4,Problem,2022-06-01,2022,6,7.0,5.0,off_target,2026-05-25 09:40:27.640053+00:00
+14,Number of Mjor Problem,4,Problem,2022-07-01,2022,7,5.0,5.0,on_target,2026-05-25 09:40:27.727011+00:00
+14,Number of Mjor Problem,4,Problem,2022-08-01,2022,8,11.0,5.0,off_target,2026-05-25 09:40:27.814561+00:00
+14,Number of Mjor Problem,4,Problem,2022-09-01,2022,9,4.0,5.0,on_target,2026-05-25 09:40:27.898458+00:00
+14,Number of Mjor Problem,4,Problem,2022-10-01,2022,10,8.0,5.0,off_target,2026-05-25 09:40:27.986808+00:00
+14,Number of Mjor Problem,4,Problem,2022-11-01,2022,11,1.0,5.0,on_target,2026-05-25 09:40:28.071103+00:00
+14,Number of Mjor Problem,4,Problem,2022-12-01,2022,12,9.0,5.0,off_target,2026-05-25 09:40:28.157349+00:00
+14,Number of Mjor Problem,4,Problem,2023-01-01,2023,1,3.0,5.0,on_target,2026-05-25 09:40:28.240212+00:00
+14,Number of Mjor Problem,4,Problem,2023-02-01,2023,2,4.0,5.0,on_target,2026-05-25 09:40:28.325656+00:00
+14,Number of Mjor Problem,4,Problem,2023-03-01,2023,3,5.0,5.0,on_target,2026-05-25 09:40:28.408463+00:00
+14,Number of Mjor Problem,4,Problem,2023-04-01,2023,4,5.0,5.0,on_target,2026-05-25 09:40:28.493489+00:00
+14,Number of Mjor Problem,4,Problem,2023-05-01,2023,5,4.0,5.0,on_target,2026-05-25 09:40:28.575447+00:00
+14,Number of Mjor Problem,4,Problem,2023-06-01,2023,6,5.0,5.0,on_target,2026-05-25 09:40:28.656169+00:00
+14,Number of Mjor Problem,4,Problem,2023-07-01,2023,7,3.0,5.0,on_target,2026-05-25 09:40:28.740705+00:00
+14,Number of Mjor Problem,4,Problem,2023-08-01,2023,8,4.0,5.0,on_target,2026-05-25 09:40:28.825651+00:00
+14,Number of Mjor Problem,4,Problem,2023-09-01,2023,9,3.0,5.0,on_target,2026-05-25 09:40:28.907960+00:00
+14,Number of Mjor Problem,4,Problem,2023-10-01,2023,10,5.0,5.0,on_target,2026-05-25 09:40:28.992452+00:00
+14,Number of Mjor Problem,4,Problem,2023-11-01,2023,11,4.0,5.0,on_target,2026-05-25 09:40:29.077529+00:00
+14,Number of Mjor Problem,4,Problem,2023-12-01,2023,12,1.0,5.0,on_target,2026-05-25 09:40:29.157422+00:00
+14,Number of Mjor Problem,4,Problem,2024-01-01,2024,1,5.0,5.0,on_target,2026-05-25 09:40:29.242689+00:00
+14,Number of Mjor Problem,4,Problem,2024-02-01,2024,2,4.0,5.0,on_target,2026-05-25 09:40:29.322300+00:00
+14,Number of Mjor Problem,4,Problem,2024-03-01,2024,3,2.0,5.0,on_target,2026-05-25 09:40:29.402429+00:00
+14,Number of Mjor Problem,4,Problem,2024-04-01,2024,4,1.0,5.0,on_target,2026-05-25 09:40:29.483039+00:00
+14,Number of Mjor Problem,4,Problem,2024-05-01,2024,5,2.0,5.0,on_target,2026-05-25 09:40:29.563605+00:00
+14,Number of Mjor Problem,4,Problem,2024-06-01,2024,6,2.0,5.0,on_target,2026-05-25 09:40:29.638550+00:00
+14,Number of Mjor Problem,4,Problem,2024-07-01,2024,7,3.0,5.0,on_target,2026-05-25 09:40:29.716843+00:00
+14,Number of Mjor Problem,4,Problem,2024-08-01,2024,8,1.0,5.0,on_target,2026-05-25 09:40:29.798482+00:00
+14,Number of Mjor Problem,4,Problem,2024-09-01,2024,9,2.0,5.0,on_target,2026-05-25 09:40:29.882440+00:00
+14,Number of Mjor Problem,4,Problem,2024-10-01,2024,10,0.0,5.0,on_target,2026-05-25 09:40:29.963034+00:00
+14,Number of Mjor Problem,4,Problem,2024-11-01,2024,11,3.0,5.0,on_target,2026-05-25 09:40:30.048237+00:00
+14,Number of Mjor Problem,4,Problem,2024-12-01,2024,12,4.0,5.0,on_target,2026-05-25 09:40:30.129035+00:00
+14,Number of Mjor Problem,4,Problem,2025-01-01,2025,1,1.0,5.0,on_target,2026-05-25 09:40:30.213235+00:00
+14,Number of Mjor Problem,4,Problem,2025-02-01,2025,2,3.0,5.0,on_target,2026-05-25 09:40:30.298797+00:00
+14,Number of Mjor Problem,4,Problem,2025-03-01,2025,3,2.0,5.0,on_target,2026-05-25 09:40:30.377348+00:00
+14,Number of Mjor Problem,4,Problem,2025-04-01,2025,4,2.0,5.0,on_target,2026-05-25 09:40:30.457877+00:00
+14,Number of Mjor Problem,4,Problem,2025-05-01,2025,5,7.0,5.0,off_target,2026-05-25 09:40:30.538128+00:00
+14,Number of Mjor Problem,4,Problem,2025-06-01,2025,6,2.0,5.0,on_target,2026-05-25 09:40:30.615607+00:00
+14,Number of Mjor Problem,4,Problem,2025-07-01,2025,7,3.0,5.0,on_target,2026-05-25 09:40:30.690448+00:00
+14,Number of Mjor Problem,4,Problem,2025-08-01,2025,8,2.0,5.0,on_target,2026-05-25 09:40:30.806641+00:00
+14,Number of Mjor Problem,4,Problem,2025-09-01,2025,9,2.0,5.0,on_target,2026-05-25 09:40:30.877159+00:00
+14,Number of Mjor Problem,4,Problem,2025-10-01,2025,10,2.0,5.0,on_target,2026-05-25 09:40:30.941413+00:00
+14,Number of Mjor Problem,4,Problem,2025-11-01,2025,11,4.0,5.0,on_target,2026-05-25 09:40:31.016057+00:00
+14,Number of Mjor Problem,4,Problem,2025-12-01,2025,12,3.0,5.0,on_target,2026-05-25 09:40:31.094618+00:00
+14,Number of Mjor Problem,4,Problem,2026-01-01,2026,1,1.0,5.0,on_target,2026-05-25 09:40:31.172662+00:00
+14,Number of Mjor Problem,4,Problem,2026-02-01,2026,2,1.0,5.0,on_target,2026-05-25 09:40:31.254422+00:00
+14,Number of Mjor Problem,4,Problem,2026-03-01,2026,3,1.0,5.0,on_target,2026-05-25 09:40:31.398228+00:00
+14,Number of Mjor Problem,4,Problem,2026-04-01,2026,4,1.0,5.0,on_target,2026-05-25 09:40:31.458492+00:00
+6,Number of Open Incidents(backlog),1,Incident,2026-03-01,2026,3,10.0,270.0,on_target,2026-05-25 09:40:12.022899+00:00
+6,Number of Open Incidents(backlog),1,Incident,2026-04-01,2026,4,39.0,270.0,on_target,2026-05-25 09:40:12.087710+00:00
+13,Number of Open Problems(backlog),4,Problem,2021-12-01,2021,12,0.0,48.0,on_target,2026-05-25 09:40:23.094962+00:00
+13,Number of Open Problems(backlog),4,Problem,2022-01-01,2022,1,0.0,48.0,on_target,2026-05-25 09:40:23.177923+00:00
+13,Number of Open Problems(backlog),4,Problem,2022-02-01,2022,2,0.0,48.0,on_target,2026-05-25 09:40:23.253848+00:00
+13,Number of Open Problems(backlog),4,Problem,2022-03-01,2022,3,0.0,48.0,on_target,2026-05-25 09:40:23.318368+00:00
+13,Number of Open Problems(backlog),4,Problem,2022-04-01,2022,4,0.0,48.0,on_target,2026-05-25 09:40:23.389388+00:00
+13,Number of Open Problems(backlog),4,Problem,2022-05-01,2022,5,0.0,48.0,on_target,2026-05-25 09:40:23.460987+00:00
+13,Number of Open Problems(backlog),4,Problem,2022-06-01,2022,6,0.0,48.0,on_target,2026-05-25 09:40:23.532129+00:00
+13,Number of Open Problems(backlog),4,Problem,2022-07-01,2022,7,0.0,48.0,on_target,2026-05-25 09:40:23.603070+00:00
+13,Number of Open Problems(backlog),4,Problem,2022-08-01,2022,8,0.0,48.0,on_target,2026-05-25 09:40:23.673180+00:00
+13,Number of Open Problems(backlog),4,Problem,2022-09-01,2022,9,0.0,48.0,on_target,2026-05-25 09:40:23.744707+00:00
+13,Number of Open Problems(backlog),4,Problem,2022-10-01,2022,10,0.0,48.0,on_target,2026-05-25 09:40:23.816564+00:00
+13,Number of Open Problems(backlog),4,Problem,2022-11-01,2022,11,0.0,48.0,on_target,2026-05-25 09:40:23.888643+00:00
+13,Number of Open Problems(backlog),4,Problem,2022-12-01,2022,12,0.0,48.0,on_target,2026-05-25 09:40:23.959730+00:00
+13,Number of Open Problems(backlog),4,Problem,2023-01-01,2023,1,0.0,48.0,on_target,2026-05-25 09:40:24.036144+00:00
+13,Number of Open Problems(backlog),4,Problem,2023-02-01,2023,2,0.0,48.0,on_target,2026-05-25 09:40:24.109374+00:00
+13,Number of Open Problems(backlog),4,Problem,2023-03-01,2023,3,0.0,48.0,on_target,2026-05-25 09:40:24.182242+00:00
+13,Number of Open Problems(backlog),4,Problem,2023-04-01,2023,4,0.0,48.0,on_target,2026-05-25 09:40:24.254232+00:00
+13,Number of Open Problems(backlog),4,Problem,2023-05-01,2023,5,0.0,48.0,on_target,2026-05-25 09:40:24.325809+00:00
+13,Number of Open Problems(backlog),4,Problem,2023-06-01,2023,6,0.0,48.0,on_target,2026-05-25 09:40:24.394790+00:00
+13,Number of Open Problems(backlog),4,Problem,2023-07-01,2023,7,0.0,48.0,on_target,2026-05-25 09:40:24.464036+00:00
+13,Number of Open Problems(backlog),4,Problem,2023-08-01,2023,8,0.0,48.0,on_target,2026-05-25 09:40:24.536765+00:00
+13,Number of Open Problems(backlog),4,Problem,2023-09-01,2023,9,0.0,48.0,on_target,2026-05-25 09:40:24.606940+00:00
+13,Number of Open Problems(backlog),4,Problem,2023-10-01,2023,10,0.0,48.0,on_target,2026-05-25 09:40:24.681286+00:00
+13,Number of Open Problems(backlog),4,Problem,2023-11-01,2023,11,0.0,48.0,on_target,2026-05-25 09:40:24.759352+00:00
+13,Number of Open Problems(backlog),4,Problem,2023-12-01,2023,12,0.0,48.0,on_target,2026-05-25 09:40:24.830667+00:00
+13,Number of Open Problems(backlog),4,Problem,2024-01-01,2024,1,0.0,48.0,on_target,2026-05-25 09:40:24.906706+00:00
+13,Number of Open Problems(backlog),4,Problem,2024-02-01,2024,2,0.0,48.0,on_target,2026-05-25 09:40:24.984057+00:00
+13,Number of Open Problems(backlog),4,Problem,2024-03-01,2024,3,0.0,48.0,on_target,2026-05-25 09:40:25.065287+00:00
+13,Number of Open Problems(backlog),4,Problem,2024-04-01,2024,4,0.0,48.0,on_target,2026-05-25 09:40:25.138578+00:00
+13,Number of Open Problems(backlog),4,Problem,2024-05-01,2024,5,0.0,48.0,on_target,2026-05-25 09:40:25.212876+00:00
+13,Number of Open Problems(backlog),4,Problem,2024-06-01,2024,6,0.0,48.0,on_target,2026-05-25 09:40:25.291040+00:00
+13,Number of Open Problems(backlog),4,Problem,2024-07-01,2024,7,0.0,48.0,on_target,2026-05-25 09:40:25.361531+00:00
+13,Number of Open Problems(backlog),4,Problem,2024-08-01,2024,8,0.0,48.0,on_target,2026-05-25 09:40:25.425843+00:00
+13,Number of Open Problems(backlog),4,Problem,2024-09-01,2024,9,0.0,48.0,on_target,2026-05-25 09:40:25.497383+00:00
+13,Number of Open Problems(backlog),4,Problem,2024-10-01,2024,10,0.0,48.0,on_target,2026-05-25 09:40:25.569779+00:00
+13,Number of Open Problems(backlog),4,Problem,2024-11-01,2024,11,0.0,48.0,on_target,2026-05-25 09:40:25.706236+00:00
+13,Number of Open Problems(backlog),4,Problem,2024-12-01,2024,12,0.0,48.0,on_target,2026-05-25 09:40:25.767144+00:00
+13,Number of Open Problems(backlog),4,Problem,2025-01-01,2025,1,0.0,48.0,on_target,2026-05-25 09:40:25.838155+00:00
+13,Number of Open Problems(backlog),4,Problem,2025-02-01,2025,2,0.0,48.0,on_target,2026-05-25 09:40:25.908864+00:00
+13,Number of Open Problems(backlog),4,Problem,2025-03-01,2025,3,0.0,48.0,on_target,2026-05-25 09:40:25.981637+00:00
+13,Number of Open Problems(backlog),4,Problem,2025-04-01,2025,4,0.0,48.0,on_target,2026-05-25 09:40:26.055004+00:00
+13,Number of Open Problems(backlog),4,Problem,2025-05-01,2025,5,0.0,48.0,on_target,2026-05-25 09:40:26.127737+00:00
+13,Number of Open Problems(backlog),4,Problem,2025-06-01,2025,6,0.0,48.0,on_target,2026-05-25 09:40:26.201247+00:00
+13,Number of Open Problems(backlog),4,Problem,2025-07-01,2025,7,0.0,48.0,on_target,2026-05-25 09:40:26.271185+00:00
+13,Number of Open Problems(backlog),4,Problem,2025-08-01,2025,8,0.0,48.0,on_target,2026-05-25 09:40:26.340802+00:00
+13,Number of Open Problems(backlog),4,Problem,2025-09-01,2025,9,0.0,48.0,on_target,2026-05-25 09:40:26.408697+00:00
+13,Number of Open Problems(backlog),4,Problem,2025-10-01,2025,10,0.0,48.0,on_target,2026-05-25 09:40:26.473381+00:00
+13,Number of Open Problems(backlog),4,Problem,2025-11-01,2025,11,0.0,48.0,on_target,2026-05-25 09:40:26.546176+00:00
+13,Number of Open Problems(backlog),4,Problem,2025-12-01,2025,12,0.0,48.0,on_target,2026-05-25 09:40:26.615536+00:00
+13,Number of Open Problems(backlog),4,Problem,2026-01-01,2026,1,0.0,48.0,on_target,2026-05-25 09:40:26.686972+00:00
+13,Number of Open Problems(backlog),4,Problem,2026-02-01,2026,2,0.0,48.0,on_target,2026-05-25 09:40:26.760053+00:00
+13,Number of Open Problems(backlog),4,Problem,2026-03-01,2026,3,0.0,48.0,on_target,2026-05-25 09:40:26.830986+00:00
+13,Number of Open Problems(backlog),4,Problem,2026-04-01,2026,4,2.0,48.0,on_target,2026-05-25 09:40:26.902740+00:00
+8,Number of Open Requests (Backlog),2,Service Request,2026-03-01,2026,3,2.0,2186.0,on_target,2026-05-25 09:40:11.571959+00:00
+8,Number of Open Requests (Backlog),2,Service Request,2026-04-01,2026,4,0.0,2186.0,on_target,2026-05-25 09:40:11.641144+00:00
+11,Percentage of closed changes,3,Change,2026-03-01,2026,3,0.22950819672131148,0.21,on_target,2026-05-25 09:40:18.467707+00:00
+11,Percentage of closed changes,3,Change,2026-04-01,2026,4,0.1746031746031746,0.21,off_target,2026-05-25 09:40:18.511584+00:00
+9,Percentage of Closed Request,2,Service Request,2026-03-01,2026,3,0.8626320845341018,0.76,off_target,2026-05-25 09:40:12.904724+00:00
+9,Percentage of Closed Request,2,Service Request,2026-04-01,2026,4,0.8452851496329757,0.76,off_target,2026-05-25 09:40:13.118002+00:00
+12,Percentage of Published Articles,5,Knowledge,2018-03-01,2018,3,0.0,0.95,off_target,2026-05-25 09:40:18.827547+00:00
+12,Percentage of Published Articles,5,Knowledge,2018-04-01,2018,4,0.0,0.95,off_target,2026-05-25 09:40:18.887939+00:00
+12,Percentage of Published Articles,5,Knowledge,2018-05-01,2018,5,0.0,0.95,off_target,2026-05-25 09:40:18.949068+00:00
+12,Percentage of Published Articles,5,Knowledge,2018-06-01,2018,6,0.0,0.95,off_target,2026-05-25 09:40:19.013809+00:00
+12,Percentage of Published Articles,5,Knowledge,2018-07-01,2018,7,0.0,0.95,off_target,2026-05-25 09:40:19.064643+00:00
+12,Percentage of Published Articles,5,Knowledge,2018-08-01,2018,8,0.0,0.95,off_target,2026-05-25 09:40:19.123240+00:00
+12,Percentage of Published Articles,5,Knowledge,2018-09-01,2018,9,0.0,0.95,off_target,2026-05-25 09:40:19.180794+00:00
+12,Percentage of Published Articles,5,Knowledge,2020-05-01,2020,5,0.0,0.95,off_target,2026-05-25 09:40:19.235697+00:00
+12,Percentage of Published Articles,5,Knowledge,2020-06-01,2020,6,0.0,0.95,off_target,2026-05-25 09:40:19.293472+00:00
+12,Percentage of Published Articles,5,Knowledge,2020-07-01,2020,7,0.0,0.95,off_target,2026-05-25 09:40:19.351373+00:00
+12,Percentage of Published Articles,5,Knowledge,2020-08-01,2020,8,0.0,0.95,off_target,2026-05-25 09:40:19.412515+00:00
+12,Percentage of Published Articles,5,Knowledge,2020-09-01,2020,9,0.0,0.95,off_target,2026-05-25 09:40:19.464812+00:00
+12,Percentage of Published Articles,5,Knowledge,2020-10-01,2020,10,0.8,0.95,off_target,2026-05-25 09:40:19.518587+00:00
+12,Percentage of Published Articles,5,Knowledge,2020-11-01,2020,11,0.8,0.95,off_target,2026-05-25 09:40:19.574378+00:00
+12,Percentage of Published Articles,5,Knowledge,2020-12-01,2020,12,0.0,0.95,off_target,2026-05-25 09:40:19.629893+00:00
+12,Percentage of Published Articles,5,Knowledge,2021-01-01,2021,1,1.0,0.95,on_target,2026-05-25 09:40:19.684880+00:00
+12,Percentage of Published Articles,5,Knowledge,2021-02-01,2021,2,0.6666666666666666,0.95,off_target,2026-05-25 09:40:19.741095+00:00
+12,Percentage of Published Articles,5,Knowledge,2021-03-01,2021,3,0.25,0.95,off_target,2026-05-25 09:40:19.796788+00:00
+12,Percentage of Published Articles,5,Knowledge,2021-04-01,2021,4,0.5,0.95,off_target,2026-05-25 09:40:19.850404+00:00
+12,Percentage of Published Articles,5,Knowledge,2021-05-01,2021,5,0.3333333333333333,0.95,off_target,2026-05-25 09:40:19.902743+00:00
+12,Percentage of Published Articles,5,Knowledge,2021-06-01,2021,6,0.2619047619047619,0.95,off_target,2026-05-25 09:40:19.958309+00:00
+12,Percentage of Published Articles,5,Knowledge,2021-08-01,2021,8,0.2631578947368421,0.95,off_target,2026-05-25 09:40:20.018506+00:00
+12,Percentage of Published Articles,5,Knowledge,2021-09-01,2021,9,0.5,0.95,off_target,2026-05-25 09:40:20.074070+00:00
+12,Percentage of Published Articles,5,Knowledge,2021-10-01,2021,10,0.09090909090909091,0.95,off_target,2026-05-25 09:40:20.115246+00:00
+12,Percentage of Published Articles,5,Knowledge,2021-11-01,2021,11,0.2,0.95,off_target,2026-05-25 09:40:20.159913+00:00
+12,Percentage of Published Articles,5,Knowledge,2021-12-01,2021,12,0.48148148148148145,0.95,off_target,2026-05-25 09:40:20.217221+00:00
+12,Percentage of Published Articles,5,Knowledge,2022-01-01,2022,1,0.745,0.95,off_target,2026-05-25 09:40:20.278841+00:00
+12,Percentage of Published Articles,5,Knowledge,2022-02-01,2022,2,0.8082191780821918,0.95,off_target,2026-05-25 09:40:20.334555+00:00
+12,Percentage of Published Articles,5,Knowledge,2022-03-01,2022,3,0.6923076923076923,0.95,off_target,2026-05-25 09:40:20.390298+00:00
+12,Percentage of Published Articles,5,Knowledge,2022-04-01,2022,4,0.875,0.95,off_target,2026-05-25 09:40:20.445021+00:00
+12,Percentage of Published Articles,5,Knowledge,2022-05-01,2022,5,0.55,0.95,off_target,2026-05-25 09:40:20.499523+00:00
+12,Percentage of Published Articles,5,Knowledge,2022-06-01,2022,6,0.45,0.95,off_target,2026-05-25 09:40:20.554230+00:00
+12,Percentage of Published Articles,5,Knowledge,2022-07-01,2022,7,0.4117647058823529,0.95,off_target,2026-05-25 09:40:20.606880+00:00
+12,Percentage of Published Articles,5,Knowledge,2022-08-01,2022,8,0.6666666666666666,0.95,off_target,2026-05-25 09:40:20.659018+00:00
+12,Percentage of Published Articles,5,Knowledge,2022-09-01,2022,9,0.825,0.95,off_target,2026-05-25 09:40:20.733878+00:00
+12,Percentage of Published Articles,5,Knowledge,2022-10-01,2022,10,0.8493150684931506,0.95,off_target,2026-05-25 09:40:20.791141+00:00
+12,Percentage of Published Articles,5,Knowledge,2022-11-01,2022,11,0.890625,0.95,off_target,2026-05-25 09:40:20.840117+00:00
+12,Percentage of Published Articles,5,Knowledge,2022-12-01,2022,12,0.8875,0.95,off_target,2026-05-25 09:40:20.885064+00:00
+12,Percentage of Published Articles,5,Knowledge,2023-01-01,2023,1,0.8857142857142857,0.95,off_target,2026-05-25 09:40:20.924345+00:00
+12,Percentage of Published Articles,5,Knowledge,2023-02-01,2023,2,0.5294117647058824,0.95,off_target,2026-05-25 09:40:20.972419+00:00
+12,Percentage of Published Articles,5,Knowledge,2023-03-01,2023,3,0.6857142857142857,0.95,off_target,2026-05-25 09:40:21.027615+00:00
+12,Percentage of Published Articles,5,Knowledge,2023-04-01,2023,4,0.6666666666666666,0.95,off_target,2026-05-25 09:40:21.083942+00:00
+12,Percentage of Published Articles,5,Knowledge,2023-05-01,2023,5,0.5652173913043478,0.95,off_target,2026-05-25 09:40:21.136579+00:00
+12,Percentage of Published Articles,5,Knowledge,2023-06-01,2023,6,0.6923076923076923,0.95,off_target,2026-05-25 09:40:21.177383+00:00
+12,Percentage of Published Articles,5,Knowledge,2023-07-01,2023,7,0.5161290322580645,0.95,off_target,2026-05-25 09:40:21.229763+00:00
+12,Percentage of Published Articles,5,Knowledge,2023-08-01,2023,8,0.825,0.95,off_target,2026-05-25 09:40:21.282026+00:00
+12,Percentage of Published Articles,5,Knowledge,2023-09-01,2023,9,0.8666666666666667,0.95,off_target,2026-05-25 09:40:21.335199+00:00
+12,Percentage of Published Articles,5,Knowledge,2023-10-01,2023,10,0.7666666666666667,0.95,off_target,2026-05-25 09:40:21.384396+00:00
+12,Percentage of Published Articles,5,Knowledge,2023-11-01,2023,11,0.8076923076923077,0.95,off_target,2026-05-25 09:40:21.439236+00:00
+12,Percentage of Published Articles,5,Knowledge,2023-12-01,2023,12,0.6111111111111112,0.95,off_target,2026-05-25 09:40:21.497537+00:00
+12,Percentage of Published Articles,5,Knowledge,2024-01-01,2024,1,0.6829268292682927,0.95,off_target,2026-05-25 09:40:21.551362+00:00
+12,Percentage of Published Articles,5,Knowledge,2024-02-01,2024,2,0.46153846153846156,0.95,off_target,2026-05-25 09:40:21.606008+00:00
+12,Percentage of Published Articles,5,Knowledge,2024-03-01,2024,3,0.6888888888888889,0.95,off_target,2026-05-25 09:40:21.669147+00:00
+12,Percentage of Published Articles,5,Knowledge,2024-04-01,2024,4,0.64,0.95,off_target,2026-05-25 09:40:21.725110+00:00
+12,Percentage of Published Articles,5,Knowledge,2024-05-01,2024,5,0.5769230769230769,0.95,off_target,2026-05-25 09:40:21.780148+00:00
+12,Percentage of Published Articles,5,Knowledge,2024-06-01,2024,6,0.6744186046511628,0.95,off_target,2026-05-25 09:40:21.833175+00:00
+12,Percentage of Published Articles,5,Knowledge,2024-07-01,2024,7,0.1076923076923077,0.95,off_target,2026-05-25 09:40:21.912472+00:00
+12,Percentage of Published Articles,5,Knowledge,2024-08-01,2024,8,0.2391304347826087,0.95,off_target,2026-05-25 09:40:21.948976+00:00
+12,Percentage of Published Articles,5,Knowledge,2024-09-01,2024,9,0.660377358490566,0.95,off_target,2026-05-25 09:40:21.991736+00:00
+12,Percentage of Published Articles,5,Knowledge,2024-10-01,2024,10,0.7045454545454546,0.95,off_target,2026-05-25 09:40:22.043398+00:00
+12,Percentage of Published Articles,5,Knowledge,2024-11-01,2024,11,0.7777777777777778,0.95,off_target,2026-05-25 09:40:22.099641+00:00
+12,Percentage of Published Articles,5,Knowledge,2024-12-01,2024,12,0.6363636363636364,0.95,off_target,2026-05-25 09:40:22.151311+00:00
+12,Percentage of Published Articles,5,Knowledge,2025-01-01,2025,1,0.7222222222222222,0.95,off_target,2026-05-25 09:40:22.199397+00:00
+12,Percentage of Published Articles,5,Knowledge,2025-02-01,2025,2,0.7619047619047619,0.95,off_target,2026-05-25 09:40:22.242199+00:00
+12,Percentage of Published Articles,5,Knowledge,2025-03-01,2025,3,0.02702702702702703,0.95,off_target,2026-05-25 09:40:22.280957+00:00
+12,Percentage of Published Articles,5,Knowledge,2025-04-01,2025,4,0.38095238095238093,0.95,off_target,2026-05-25 09:40:22.318219+00:00
+12,Percentage of Published Articles,5,Knowledge,2025-05-01,2025,5,0.8536585365853658,0.95,off_target,2026-05-25 09:40:22.363636+00:00
+12,Percentage of Published Articles,5,Knowledge,2025-06-01,2025,6,0.475,0.95,off_target,2026-05-25 09:40:22.417590+00:00
+12,Percentage of Published Articles,5,Knowledge,2025-07-01,2025,7,0.5833333333333334,0.95,off_target,2026-05-25 09:40:22.473944+00:00
+12,Percentage of Published Articles,5,Knowledge,2025-08-01,2025,8,0.4883720930232558,0.95,off_target,2026-05-25 09:40:22.522439+00:00
+12,Percentage of Published Articles,5,Knowledge,2025-09-01,2025,9,0.6521739130434783,0.95,off_target,2026-05-25 09:40:22.559936+00:00
+12,Percentage of Published Articles,5,Knowledge,2025-10-01,2025,10,0.44,0.95,off_target,2026-05-25 09:40:22.610466+00:00
+12,Percentage of Published Articles,5,Knowledge,2025-11-01,2025,11,0.5483870967741935,0.95,off_target,2026-05-25 09:40:22.647941+00:00
+12,Percentage of Published Articles,5,Knowledge,2025-12-01,2025,12,0.4,0.95,off_target,2026-05-25 09:40:22.688479+00:00
+12,Percentage of Published Articles,5,Knowledge,2026-01-01,2026,1,0.5,0.95,off_target,2026-05-25 09:40:22.732244+00:00
+12,Percentage of Published Articles,5,Knowledge,2026-02-01,2026,2,0.3333333333333333,0.95,off_target,2026-05-25 09:40:22.777606+00:00
+12,Percentage of Published Articles,5,Knowledge,2026-03-01,2026,3,0.425,0.95,off_target,2026-05-25 09:40:22.831715+00:00
+12,Percentage of Published Articles,5,Knowledge,2026-04-01,2026,4,0.0,0.95,off_target,2026-05-25 09:40:22.884413+00:00
+4,Problem Created in a month,4,Problem,2021-12-01,2021,12,8.0,10.0,on_target,2026-05-25 09:40:13.369388+00:00
+4,Problem Created in a month,4,Problem,2022-01-01,2022,1,8.0,10.0,on_target,2026-05-25 09:40:13.481978+00:00
+4,Problem Created in a month,4,Problem,2022-02-01,2022,2,25.0,10.0,off_target,2026-05-25 09:40:13.594475+00:00
+4,Problem Created in a month,4,Problem,2022-03-01,2022,3,24.0,10.0,off_target,2026-05-25 09:40:13.709113+00:00
+4,Problem Created in a month,4,Problem,2022-04-01,2022,4,18.0,10.0,off_target,2026-05-25 09:40:13.822216+00:00
+4,Problem Created in a month,4,Problem,2022-05-01,2022,5,35.0,10.0,off_target,2026-05-25 09:40:13.933902+00:00
+4,Problem Created in a month,4,Problem,2022-06-01,2022,6,17.0,10.0,off_target,2026-05-25 09:40:14.046845+00:00
+4,Problem Created in a month,4,Problem,2022-07-01,2022,7,21.0,10.0,off_target,2026-05-25 09:40:14.156985+00:00
+4,Problem Created in a month,4,Problem,2022-08-01,2022,8,25.0,10.0,off_target,2026-05-25 09:40:14.265823+00:00
+4,Problem Created in a month,4,Problem,2022-09-01,2022,9,16.0,10.0,off_target,2026-05-25 09:40:14.374014+00:00
+4,Problem Created in a month,4,Problem,2022-10-01,2022,10,26.0,10.0,off_target,2026-05-25 09:40:14.481755+00:00
+4,Problem Created in a month,4,Problem,2022-11-01,2022,11,17.0,10.0,off_target,2026-05-25 09:40:14.592660+00:00
+4,Problem Created in a month,4,Problem,2022-12-01,2022,12,26.0,10.0,off_target,2026-05-25 09:40:14.698737+00:00
+4,Problem Created in a month,4,Problem,2023-01-01,2023,1,20.0,10.0,off_target,2026-05-25 09:40:14.804323+00:00
+4,Problem Created in a month,4,Problem,2023-02-01,2023,2,22.0,10.0,off_target,2026-05-25 09:40:14.908381+00:00
+4,Problem Created in a month,4,Problem,2023-03-01,2023,3,29.0,10.0,off_target,2026-05-25 09:40:15.020610+00:00
+4,Problem Created in a month,4,Problem,2023-04-01,2023,4,23.0,10.0,off_target,2026-05-25 09:40:15.138068+00:00
+4,Problem Created in a month,4,Problem,2023-05-01,2023,5,34.0,10.0,off_target,2026-05-25 09:40:15.247849+00:00
+4,Problem Created in a month,4,Problem,2023-06-01,2023,6,17.0,10.0,off_target,2026-05-25 09:40:15.355861+00:00
+4,Problem Created in a month,4,Problem,2023-07-01,2023,7,22.0,10.0,off_target,2026-05-25 09:40:15.453855+00:00
+4,Problem Created in a month,4,Problem,2023-08-01,2023,8,22.0,10.0,off_target,2026-05-25 09:40:15.554494+00:00
+4,Problem Created in a month,4,Problem,2023-09-01,2023,9,28.0,10.0,off_target,2026-05-25 09:40:15.655301+00:00
+4,Problem Created in a month,4,Problem,2023-10-01,2023,10,33.0,10.0,off_target,2026-05-25 09:40:15.757916+00:00
+4,Problem Created in a month,4,Problem,2023-11-01,2023,11,24.0,10.0,off_target,2026-05-25 09:40:15.859140+00:00
+4,Problem Created in a month,4,Problem,2023-12-01,2023,12,19.0,10.0,off_target,2026-05-25 09:40:15.955499+00:00
+4,Problem Created in a month,4,Problem,2024-01-01,2024,1,23.0,10.0,off_target,2026-05-25 09:40:16.060230+00:00
+4,Problem Created in a month,4,Problem,2024-02-01,2024,2,24.0,10.0,off_target,2026-05-25 09:40:16.162320+00:00
+4,Problem Created in a month,4,Problem,2024-03-01,2024,3,21.0,10.0,off_target,2026-05-25 09:40:16.261155+00:00
+4,Problem Created in a month,4,Problem,2024-04-01,2024,4,33.0,10.0,off_target,2026-05-25 09:40:16.353183+00:00
+4,Problem Created in a month,4,Problem,2024-05-01,2024,5,22.0,10.0,off_target,2026-05-25 09:40:16.452098+00:00
+4,Problem Created in a month,4,Problem,2024-06-01,2024,6,23.0,10.0,off_target,2026-05-25 09:40:16.542842+00:00
+4,Problem Created in a month,4,Problem,2024-07-01,2024,7,26.0,10.0,off_target,2026-05-25 09:40:16.631838+00:00
+4,Problem Created in a month,4,Problem,2024-08-01,2024,8,20.0,10.0,off_target,2026-05-25 09:40:16.732082+00:00
+4,Problem Created in a month,4,Problem,2024-09-01,2024,9,22.0,10.0,off_target,2026-05-25 09:40:16.820553+00:00
+4,Problem Created in a month,4,Problem,2024-10-01,2024,10,30.0,10.0,off_target,2026-05-25 09:40:16.909714+00:00
+4,Problem Created in a month,4,Problem,2024-11-01,2024,11,15.0,10.0,off_target,2026-05-25 09:40:16.995986+00:00
+4,Problem Created in a month,4,Problem,2024-12-01,2024,12,26.0,10.0,off_target,2026-05-25 09:40:17.084167+00:00
+4,Problem Created in a month,4,Problem,2025-01-01,2025,1,19.0,10.0,off_target,2026-05-25 09:40:17.169409+00:00
+4,Problem Created in a month,4,Problem,2025-02-01,2025,2,26.0,10.0,off_target,2026-05-25 09:40:17.261399+00:00
+4,Problem Created in a month,4,Problem,2025-03-01,2025,3,20.0,10.0,off_target,2026-05-25 09:40:17.353480+00:00
+4,Problem Created in a month,4,Problem,2025-04-01,2025,4,24.0,10.0,off_target,2026-05-25 09:40:17.437453+00:00
+4,Problem Created in a month,4,Problem,2025-05-01,2025,5,22.0,10.0,off_target,2026-05-25 09:40:17.522446+00:00
+4,Problem Created in a month,4,Problem,2025-06-01,2025,6,25.0,10.0,off_target,2026-05-25 09:40:17.604233+00:00
+4,Problem Created in a month,4,Problem,2025-07-01,2025,7,13.0,10.0,off_target,2026-05-25 09:40:17.684975+00:00
+4,Problem Created in a month,4,Problem,2025-08-01,2025,8,14.0,10.0,off_target,2026-05-25 09:40:17.766305+00:00
+4,Problem Created in a month,4,Problem,2025-09-01,2025,9,9.0,10.0,on_target,2026-05-25 09:40:17.846511+00:00
+4,Problem Created in a month,4,Problem,2025-10-01,2025,10,24.0,10.0,off_target,2026-05-25 09:40:17.927010+00:00
+4,Problem Created in a month,4,Problem,2025-11-01,2025,11,32.0,10.0,off_target,2026-05-25 09:40:18.011853+00:00
+4,Problem Created in a month,4,Problem,2025-12-01,2025,12,17.0,10.0,off_target,2026-05-25 09:40:18.092742+00:00
+4,Problem Created in a month,4,Problem,2026-01-01,2026,1,9.0,10.0,on_target,2026-05-25 09:40:18.172673+00:00
+4,Problem Created in a month,4,Problem,2026-02-01,2026,2,22.0,10.0,off_target,2026-05-25 09:40:18.255136+00:00
+4,Problem Created in a month,4,Problem,2026-03-01,2026,3,25.0,10.0,off_target,2026-05-25 09:40:18.331319+00:00
+4,Problem Created in a month,4,Problem,2026-04-01,2026,4,3.0,10.0,on_target,2026-05-25 09:40:18.404699+00:00
+5,Request Created in a month,2,Service Request,2026-03-01,2026,3,1041.0,700.0,on_target,2026-05-25 09:40:31.788790+00:00
+5,Request Created in a month,2,Service Request,2026-04-01,2026,4,1771.0,700.0,on_target,2026-05-25 09:40:31.892325+00:00
