@@ -25,6 +25,7 @@ import api from "../../api/axios";
 import ExcelJS from "exceljs";
 import { saveAs } from "file-saver";
 export default function KPIResults() {
+  const isDemo = window.location.hostname.includes("github.io");
   const theme = useTheme();
   const isMobile = useMediaQuery(theme.breakpoints.down("sm"));
   
@@ -69,9 +70,117 @@ export default function KPIResults() {
     customEndDate &&
     new Date(customEndDate) < new Date(customStartDate);
 
+  const getDemoData = () => {
+    const demoKpis = [
+      {
+        id: 1,
+        module: 1,
+        module_name: "Incident Management",
+        name: "Incident Resolution Rate",
+        description: "Percentage of incidents resolved within the defined target.",
+        aggregation: "Average",
+        target_operator: ">=",
+        target_value: 0.9,
+        value_type: "percentage",
+        is_active: true,
+      },
+      {
+        id: 2,
+        module: 1,
+        module_name: "Incident Management",
+        name: "Critical Incident Rate",
+        description: "Percentage of incidents classified as critical.",
+        aggregation: "Average",
+        target_operator: "<=",
+        target_value: 0.1,
+        value_type: "percentage",
+        is_active: true,
+      },
+      {
+        id: 3,
+        module: 2,
+        module_name: "Service Requests",
+        name: "Request Resolution Time",
+        description: "Average time required to resolve service requests.",
+        aggregation: "Average",
+        target_operator: "<=",
+        target_value: 4,
+        value_type: "number",
+        is_active: true,
+      },
+      {
+        id: 4,
+        module: 2,
+        module_name: "Service Requests",
+        name: "Request Satisfaction",
+        description: "Average satisfaction rate for completed service requests.",
+        aggregation: "Average",
+        target_operator: ">=",
+        target_value: 0.85,
+        value_type: "percentage",
+        is_active: true,
+      },
+    ];
+
+    const demoResults = [];
+
+    monthColumns.forEach((month, index) => {
+      const resolutionRate = 0.82 + (index % 5) * 0.025;
+      const criticalRate = 0.12 - (index % 4) * 0.012;
+      const resolutionTime = 4.8 - (index % 5) * 0.25;
+      const satisfaction = 0.79 + (index % 5) * 0.025;
+
+      demoResults.push(
+        {
+          kpi_definition_id: 1,
+          date_value: `${month.key}-01`,
+          actual_value: Math.min(resolutionRate, 0.95),
+          grouped_data: [
+            { label: "Priority 1", value: Math.round(resolutionRate * 100) },
+            { label: "Priority 2", value: Math.round((resolutionRate + 0.03) * 100) },
+          ],
+        },
+        {
+          kpi_definition_id: 2,
+          date_value: `${month.key}-01`,
+          actual_value: Math.max(criticalRate, 0.06),
+          grouped_data: [],
+        },
+        {
+          kpi_definition_id: 3,
+          date_value: `${month.key}-01`,
+          actual_value: Math.max(resolutionTime, 3.5),
+          grouped_data: [],
+        },
+        {
+          kpi_definition_id: 4,
+          date_value: `${month.key}-01`,
+          actual_value: Math.min(satisfaction, 0.91),
+          grouped_data: [],
+        }
+      );
+    });
+
+    return {
+      kpis: demoKpis,
+      results: demoResults,
+    };
+  };  
   const fetchData = async () => {
     try {
-      const params = {};
+      // Use sample data on the public GitHub Pages demo
+      if (isDemo) {
+        const demoData = getDemoData();
+
+        setKpis(demoData.kpis);
+        setResults(demoData.results);
+        setError("");
+        setLoading(false);
+
+        return;
+      }
+
+    const params = {};
 
       if (periodType === "last_6") {
         params.months = 6;
