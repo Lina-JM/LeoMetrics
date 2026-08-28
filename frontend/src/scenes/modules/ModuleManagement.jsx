@@ -30,6 +30,7 @@ import UploadFileIcon from "@mui/icons-material/UploadFile";
 import api from "../../api/axios";
 
 export default function ModuleManagement() {
+  const isDemo = window.location.hostname.includes("github.io");
   const theme = useTheme();
   const isMobile = useMediaQuery(theme.breakpoints.down("sm"));
   const storedUser = useMemo(() => {
@@ -108,8 +109,52 @@ export default function ModuleManagement() {
 
   const [activationLoadingId, setActivationLoadingId] = useState(null);
 
+  const demoModules = [
+    {
+      id: 1,
+      name: "Incident Management",
+      description:
+        "Monitor incident creation, resolution times, SLA compliance and critical incidents.",
+      is_active: true,
+      created_by_username: "admin",
+      updated_by_username: "admin",
+    },
+    {
+      id: 2,
+      name: "Service Requests",
+      description:
+        "Track service request performance, satisfaction and resolution efficiency.",
+      is_active: true,
+      created_by_username: "admin",
+      updated_by_username: "admin",
+    },
+    {
+      id: 3,
+      name: "Knowledge Management",
+      description:
+        "Measure article usage, self-service adoption and knowledge effectiveness.",
+      is_active: true,
+      created_by_username: "admin",
+      updated_by_username: "admin",
+    },
+    {
+      id: 4,
+      name: "Change Management",
+      description:
+        "Track change success rate, failed changes and emergency changes.",
+      is_active: true,
+      created_by_username: "admin",
+      updated_by_username: "admin",
+    },
+  ];
+
   const fetchModules = async () => {
     try {
+      if (isDemo) {
+        setModules(demoModules);
+        return;
+      }
+
       const res = await api.get("modules/");
       setModules(res.data);
       setError("");
