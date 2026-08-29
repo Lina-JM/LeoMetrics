@@ -222,11 +222,80 @@ export default function KPIManagement() {
     return () => clearTimeout(timer);
   }, [editError]);
 
+  const demoKpis = [
+    {
+      id: 1,
+      module: 1,
+      module_name: "Incident Management",
+      name: "Incident Resolution Rate",
+      aggregation: "percentage",
+      target_operator: ">=",
+      target_value: 95,
+      value_type: "percentage",
+      is_active: true,
+      description: "Percentage of incidents resolved.",
+      business_meaning:
+        "Measures the percentage of incidents successfully resolved."
+    },
+
+    {
+      id: 2,
+      module: 1,
+      module_name: "Incident Management",
+      name: "Critical Incident Rate",
+      aggregation: "percentage",
+      target_operator: "<=",
+      target_value: 5,
+      value_type: "percentage",
+      is_active: true,
+      description: "Percentage of incidents classified as critical.",
+      business_meaning:
+        "Measures the proportion of critical incidents."
+    },
+
+    {
+      id: 3,
+      module: 2,
+      module_name: "Service Requests",
+      name: "Request Resolution Time",
+      aggregation: "avg",
+      target_operator: "<=",
+      target_value: 24,
+      value_type: "duration",
+      is_active: true,
+      description: "Average request resolution time.",
+      business_meaning:
+        "Measures how quickly service requests are fulfilled."
+    },
+
+    {
+      id: 4,
+      module: 2,
+      module_name: "Service Requests",
+      name: "Request Satisfaction",
+      aggregation: "percentage",
+      target_operator: ">=",
+      target_value: 90,
+      value_type: "percentage",
+      is_active: true,
+      description: "User satisfaction score.",
+      business_meaning:
+        "Measures end-user satisfaction with fulfilled requests."
+    }
+  ];
+
+  const isGithubPages =
+  window.location.hostname === "lina-jm.github.io";
+
   const fetchKpis = async () => {
+    if (isGithubPages) {
+      setKpis(demoKpis);
+      return;
+    }
+
     try {
       const res = await api.get("kpis/");
       setKpis(res.data || []);
-      setError("");
     } catch (err) {
       console.error(err);
       setError("Failed to load KPIs.");
