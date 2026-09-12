@@ -128,7 +128,8 @@ export default function ModuleDashboard() {
 
   const dashboardStorageKey = `module_dashboard_filters_${currentUser.email || "guest"}_${id}`;
   const chartTypeStorageKey = `module_dashboard_chart_types_${currentUser.email || "guest"}_${id}`;
-
+  const isGithubPages = 
+    window.location.hostname === "lina-jm.github.io";
   const [chartTypes, setChartTypes] = useState(() => {
     const saved = localStorage.getItem(chartTypeStorageKey);
 
@@ -248,6 +249,89 @@ export default function ModuleDashboard() {
     );
   }, [dashboardFilters, appliedFilters, dashboardStorageKey]);
 
+
+  const DEMO_KPIS = [
+    {
+      id: 1,
+      name: "Incident Resolution Rate",
+      module: 1,
+      module_name: "Incident Management",
+      target_value: 90,
+      target_operator: ">=",
+      value_type: "percentage",
+      aggregation: "percentage",
+    },
+    {
+      id: 2,
+      name: "Critical Incident Rate",
+      module: 1,
+      module_name: "Incident Management",
+      target_value: 5,
+      target_operator: "<=",
+      value_type: "percentage",
+      aggregation: "percentage",
+    },
+    {
+      id: 3,
+      name: "Request Resolution Time",
+      module: 2,
+      module_name: "Service Requests",
+      target_value: 48,
+      target_operator: "<=",
+      value_type: "duration",
+      aggregation: "avg",
+    },
+    {
+      id: 4,
+      name: "Request Satisfaction",
+      module: 2,
+      module_name: "Service Requests",
+      target_value: 90,
+      target_operator: ">=",
+      value_type: "percentage",
+      aggregation: "percentage",
+    },
+  ];
+
+
+  const DEMO_DASHBOARD_RESULTS = {
+    1: {
+      kpi_id: 1,
+      actual_value: 0.91,
+      target_value: 0.90,
+      status: "success",
+      grouped_data: [
+        { label: "Priority 1", value: 91 },
+        { label: "Priority 2", value: 94 },
+      ],
+    },
+
+    2: {
+      kpi_id: 2,
+      actual_value: 0.07,
+      target_value: 0.05,
+      status: "warning",
+      grouped_data: [],
+    },
+
+    3: {
+      kpi_id: 3,
+      actual_value: 3.8,
+      target_value: 4.0,
+      status: "success",
+      grouped_data: [],
+    },
+
+    4: {
+      kpi_id: 4,
+      actual_value: 0.89,
+      target_value: 0.90,
+      status: "warning",
+      grouped_data: [],
+    },
+  };
+
+
   const fetchModuleFields = async () => {
     try {
       const res = await api.get(`modules/${id}/fields/`);
@@ -326,6 +410,33 @@ export default function ModuleDashboard() {
     };
 
     const fetchKpis = async () => {
+
+      if (window.location.hostname.includes("github.io")) {
+
+        const demoKpis = DEMO_KPIS.filter(
+          (kpi) => Number(kpi.module) === Number(id)
+        );
+
+        setKpis(demoKpis);
+        setVisibleKpiIds(demoKpis.map((k) => k.id));
+
+        setChartTypes((prev) => {
+          const updated = { ...prev };
+
+          demoKpis.forEach((kpi) => {
+            if (!updated[kpi.id]) {
+              updated[kpi.id] = getDefaultChartType(kpi);
+            }
+          });
+
+          return updated;
+        });
+
+        setKpiLoading(false);
+        return;
+      }
+
+      // Existing backend code
       try {
         const res = await api.get(`modules/${id}/kpis/`);
         const data = res.data || [];
@@ -344,17 +455,12 @@ export default function ModuleDashboard() {
 
           return updated;
         });
-
-        if (data.length > 0) {
-          await runAllKpis(appliedFilters, data);
-        }
-      } catch {
-        setKpis([]);
+      } catch (err) {
+        console.error(err);
       } finally {
         setKpiLoading(false);
       }
     };
-
     fetchModule();
     fetchKpis();
     fetchModuleFields();
@@ -385,6 +491,24 @@ export default function ModuleDashboard() {
   };
 
   const runKpi = async (kpiId, filters = appliedFilters) => {
+    if (window.location.hostname.includes("github.io")) {
+
+      const demoResult = DEMO_DASHBOARD_RESULTS[kpiId];
+
+      if (demoResult) {
+        setKpiResults((prev) => ({
+          ...prev,
+          [String(kpiId)]: demoResult,
+        }));
+      }
+
+      setLoadingKpis((prev) => ({
+        ...prev,
+        [kpiId]: false,
+      }));
+
+      return;
+    }
     setLoadingKpis((prev) => ({ ...prev, [kpiId]: true }));
     setError("");
 
@@ -885,6 +1009,9 @@ export default function ModuleDashboard() {
 
     pdf.save(`${module?.name || "dashboard"}-dashboard.pdf`);
   };
+
+
+  
 
   return (
     <Box ref={dashboardRef}>
